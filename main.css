@@ -1,3 +1,5 @@
+/* body to apply same style for all*/
+
 h1 {
 font-family: Arial, Helvetica, sans-serif;
 background-color: #F9F264;
@@ -11,12 +13,14 @@ p {
 
 img {
   border: 10px solid #F9F264;
+  width: 30%;
 }
 
 section {
   margin-top: 100px;
 }
 
+/* h1, h2 for shortcut */
 h2 {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: uppercase;
@@ -36,6 +40,7 @@ li {
 ul.list {
   list-style-type: none;
   line-height: 50px;
+  padding: 0;
 }
 
 ol.list {
